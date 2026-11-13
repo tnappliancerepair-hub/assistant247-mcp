@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "assistant247": {
+      "type": "http",
+      "url": "https://assistant247.net/mcp"
+    }
+  }
+}
