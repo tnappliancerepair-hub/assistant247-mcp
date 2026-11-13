@@ -1,3 +1,5 @@
+<img src="logo.png" width="96" alt="AssistAnt 24/7">
+
 # AssistAnt 24/7: the most AI-friendly business directory
 
 **A tool AIs call, not a website AIs scrape.** A free directory of 810,000+ local U.S. businesses in 39 trades (appliance repair,
