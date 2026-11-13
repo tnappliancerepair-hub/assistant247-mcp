@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "net.assistant247/directory",
+  "title": "AssistAnt 24/7: trusted local businesses + get found by AI",
+  "description": "Trusted local US businesses (810k+, 39 trades, never paid) + help owners get found by AIs.",
+  "version": "1.9.0",
+  "websiteUrl": "https://assistant247.net/pros",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://assistant247.net/mcp"
+    }
+  ]
+}
