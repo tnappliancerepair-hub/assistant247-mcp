@@ -70,7 +70,7 @@ Examples, no packages needed:
 - [`examples/node/find-pros.mjs`](examples/node/find-pros.mjs): `node find-pros.mjs 70433 plumbing`.
 
 Prefer REST? Same data at `https://assistant247.net/api/pros?zip=37013&service=hvac` ([OpenAPI](https://assistant247.net/openapi.json)).
-For AI crawlers: [llms.txt](https://assistant247.net/llms.txt).
+For AI crawlers: [llms.txt](https://assistant247.net/llms.txt). Setting up in Cline or another agent: [llms-install.md](llms-install.md).
 
 ## Using the data well
 
