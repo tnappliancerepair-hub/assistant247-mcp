@@ -3,8 +3,22 @@
   "name": "net.assistant247/directory",
   "title": "AssistAnt 24/7: trusted local businesses + get found by AI",
   "description": "Trusted local US businesses (810k+, 39 trades, never paid) + help owners get found by AIs.",
-  "version": "1.9.0",
+  "version": "1.12.0",
   "websiteUrl": "https://assistant247.net/pros",
+  "repository": {
+    "url": "https://github.com/tnappliancerepair-hub/assistant247-mcp",
+    "source": "github",
+    "id": "1456713993"
+  },
+  "icons": [
+    {
+      "src": "https://assistant247.net/platform/assistant247-icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",

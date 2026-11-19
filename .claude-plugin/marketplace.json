@@ -1,0 +1,17 @@
+{
+  "name": "assistant247",
+  "owner": {
+    "name": "ASSISTANT 247 LLC",
+    "email": "hello@assistant247.net"
+  },
+  "metadata": {
+    "description": "AssistAnt 24/7: the free, AI-friendly directory of local U.S. businesses."
+  },
+  "plugins": [
+    {
+      "name": "assistant247",
+      "source": "./",
+      "description": "Find trusted local U.S. tradespeople with sourced, dated facts, and help owners get found by AI. Nobody can pay to rank."
+    }
+  ]
+}

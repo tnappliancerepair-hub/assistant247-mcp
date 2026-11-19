@@ -1,10 +1,20 @@
 {
   "name": "assistant247-mcp",
-  "version": "1.0.0",
+  "version": "1.12.0",
   "private": true,
-  "description": "Free remote MCP server: 813,000+ local U.S. tradespeople in 39 trades, verified first, nobody can pay to rank.",
+  "description": "Free remote MCP server: 810,000+ local U.S. businesses in 39 trades, every fact sourced and dated, nobody can pay to rank.",
   "homepage": "https://assistant247.net/pros",
-  "repository": { "type": "git", "url": "https://github.com/tnappliancerepair-hub/assistant247-mcp.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tnappliancerepair-hub/assistant247-mcp.git"
+  },
   "license": "MIT",
-  "keywords": ["mcp", "model-context-protocol", "local-business", "directory", "home-services", "remote-mcp"]
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "local-business",
+    "directory",
+    "home-services",
+    "remote-mcp"
+  ]
 }

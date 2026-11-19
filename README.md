@@ -51,6 +51,18 @@ The full list of services is in `tools/list` (and in the [OpenAPI spec](https://
 { "servers": { "assistant247": { "type": "http", "url": "https://assistant247.net/mcp" } } }
 ```
 
+**Claude Code** (this repo is also a Claude plugin: the MCP server plus two skills, `find-a-pro` and `get-found-by-ai`):
+```
+/plugin marketplace add tnappliancerepair-hub/assistant247-mcp
+/plugin install assistant247@assistant247
+```
+Or just the server: `claude mcp add --transport http assistant247 https://assistant247.net/mcp`.
+
+**Gemini CLI** (this repo is also a Gemini CLI extension, `gemini-extension.json`):
+```sh
+gemini extensions install https://github.com/tnappliancerepair-hub/assistant247-mcp
+```
+
 **Clients that only run local (stdio) servers:**
 ```json
 { "mcpServers": { "assistant247": { "command": "npx", "args": ["-y", "mcp-remote", "https://assistant247.net/mcp"] } } }
@@ -85,6 +97,14 @@ Is your business listed? Check your AI Boost free at https://assistant247.net/pr
 verified, or remove it instantly. Once claimed, connect your own AI (ChatGPT or Claude) to your listing and let it do the upkeep:
 every change is previewed and can be undone. Agent skill for AIs helping an owner:
 https://assistant247.net/.well-known/agent-skills/get-found-by-ai/SKILL.md
+
+## Privacy and what this connects to
+
+The plugin, the extension and the examples connect to one host only: `https://assistant247.net` (the MCP server and its public
+JSON API). They run no local code and read no files or credentials on your machine. What you ask is sent to that server to answer
+the question. We do not sell personal information.
+`send_claim_link` is the only tool that changes anything: it emails a one-tap claim link to the address already on file for the
+business. Privacy policy: https://assistant247.net/platform/privacy.html · Terms: https://assistant247.net/platform/terms.html
 
 ## About
 

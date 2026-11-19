@@ -1,0 +1,25 @@
+{
+  "name": "assistant247",
+  "displayName": "AssistAnt 24/7",
+  "version": "1.12.0",
+  "description": "Find trusted local U.S. tradespeople (810,000+ businesses, 39 trades) with sourced, dated facts, and help business owners claim their free listing and get found by AI. Nobody can pay to rank.",
+  "author": {
+    "name": "ASSISTANT 247 LLC",
+    "email": "hello@assistant247.net",
+    "url": "https://assistant247.net"
+  },
+  "homepage": "https://assistant247.net/for-ai-assistants",
+  "repository": "https://github.com/tnappliancerepair-hub/assistant247-mcp",
+  "license": "MIT",
+  "keywords": [
+    "local business",
+    "directory",
+    "home services",
+    "contractors",
+    "appliance repair",
+    "AI visibility",
+    "small business"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://assistant247.net/platform/privacy.html"
+}
