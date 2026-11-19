@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "assistant247",
-      "source": "./",
+      "source": "./plugin",
       "description": "Find trusted local U.S. tradespeople with sourced, dated facts, and help owners get found by AI. Nobody can pay to rank."
     }
   ]

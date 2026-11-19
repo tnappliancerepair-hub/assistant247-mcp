@@ -108,7 +108,7 @@ business correctly; it does not guarantee rankings.
 - Owners can say: *"Add the free AssistAnt 24/7 Website Kit to my site (assistant247.net/kit)."*
 - Get it: `GET https://assistant247.net/api/kit?slug=<listing slug>` or `?name=&phone=&website=&city=&state=&services=&hours=`
 - Check a site: `GET https://assistant247.net/api/kit/check?url=<site>` (page: https://assistant247.net/kit/check)
-- Skill: [skills/add-website-kit/SKILL.md](skills/add-website-kit/SKILL.md)
+- Skill: [skills/add-website-kit/SKILL.md](plugin/skills/add-website-kit/SKILL.md)
 
 ## Privacy and what this connects to
 
