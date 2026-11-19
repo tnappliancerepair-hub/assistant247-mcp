@@ -21,5 +21,7 @@
     "small business"
   ],
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://assistant247.net/platform/privacy.html"
+  "privacyPolicyUrl": "https://assistant247.net/platform/privacy.html",
+  "supportUrl": "https://assistant247.net/contact",
+  "termsOfServiceUrl": "https://assistant247.net/platform/terms.html"
 }
