@@ -1,0 +1,36 @@
+{
+  "spec": "https://assistant247.net/kit/spec",
+  "spec_version": "0.1",
+  "name": "Smith Appliance Repair",
+  "description": "Family-owned appliance repair in Franklin, TN since 1998.",
+  "category": "HomeAndConstructionBusiness",
+  "services": [
+    "Refrigerator repair",
+    "Washer repair",
+    "Dryer repair"
+  ],
+  "phone": "+16155550134",
+  "website": "https://smithappliance.example/",
+  "address": {
+    "city": "Franklin",
+    "region": "TN",
+    "postal_code": "37064",
+    "country": "US"
+  },
+  "service_area": [
+    "Franklin",
+    "Brentwood",
+    "Nolensville"
+  ],
+  "hours": [
+    "Mo-Fr 08:00-17:00",
+    "Sa 09:00-12:00"
+  ],
+  "booking": {
+    "phone": "+16155550134"
+  },
+  "profiles": [
+    "https://www.facebook.com/smithappliance"
+  ],
+  "updated": "2026-11-19"
+}

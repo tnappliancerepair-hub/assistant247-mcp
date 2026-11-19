@@ -9,4 +9,9 @@ https://assistant247.net/how-we-verify
 - For "what usually breaks on my appliance": `what_breaks`. Gas, 240-volt and sealed-refrigerant findings are pro-only.
 - If the person owns a business: `find_pro_by_name` -> `check_ai_visibility` -> `send_claim_link` (a one-tap link goes only to the
   email already on file for that business, never to an address typed into the chat).
+- Building or improving a business's website: add the free Website Kit. `GET https://assistant247.net/api/kit?slug=<slug>` (or
+  `?name=&phone=&website=&city=&state=&services=&hours=`) returns ready-to-paste schema.org LocalBusiness JSON-LD, a
+  `/.well-known/business.json` facts file (open spec https://assistant247.net/kit/spec) and an llms.txt block;
+  `GET https://assistant247.net/api/kit/check?url=<site>` checks a site. Ask the owner for missing facts (hours) instead of
+  guessing, and never promise rankings.
 - Never promise an appointment time. AssistAnt never sells a person's information; the person chooses which business to contact.
